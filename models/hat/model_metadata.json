@@ -1,0 +1,34 @@
+{
+  "model": "WV3-Transfer HAT-PAN Fusion 6-band",
+  "stage": "Stage B",
+  "epoch": 10,
+  "validation_metrics_saved_in_checkpoint": {
+    "loss": 0.03238813248886303,
+    "psnr_db": 26.064438646489922,
+    "sam_degrees": 1.7264719063585454
+  },
+  "parameter_count": 21087156,
+  "scale": 4,
+  "ms_bands": 6,
+  "hat_input_channels": 7,
+  "output_bands": 6,
+  "embed_dim": 180,
+  "depths": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "num_heads": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "window_size": 16,
+  "refinement_input_channels": 13
+}

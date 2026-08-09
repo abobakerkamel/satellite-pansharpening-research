@@ -1,0 +1,28 @@
+notebook,purpose,executed_code_cells,saved_outputs,saved_errors,size_mb
+notebooks/00_data_pipeline/01_check_satellite_pair.ipynb,Data inspection,0,0,,0.02
+notebooks/00_data_pipeline/02_align_MS_PAN_colab.ipynb,MS/PAN alignment,8,9,,2.033
+notebooks/00_data_pipeline/03_create_wald_patches_colab.ipynb,Wald patch generation,11,15,,1.399
+notebooks/01_baselines/04_pytorch_loader_and_baseline_fusion_colab.ipynb,Bicubic and Fusion CNN baseline,16,71,,2.346
+notebooks/02_hat/05_pretrained_HAT_pan_fusion_FIXED_colab.ipynb,HAT PAN-fusion baseline,19,64,,0.387
+notebooks/02_hat/06_download_and_inspect_PanCollection_WV3_colab.ipynb,PanCollection WV3 inspection,11,18,,1.18
+notebooks/02_hat/07_pretrain_HAT_on_PanCollection_WV3_colab.ipynb,HAT pretraining on WV3,24,52,NameError: name 'RGB_WEIGHT_PATH' is not defined,0.503
+notebooks/02_hat/08_transfer_WV3_pretrained_HAT_to_6band_data_colab.ipynb,WV3 HAT transfer to local 6-band data,19,68,,3.161
+notebooks/02_hat/HAT_Test_Low_Resolution_Drive_Complete.ipynb,HAT low-resolution test,2,3,,0.029
+notebooks/03_fusion/10_adaptive_HAT_CNN_dual_fusion_EXPERIMENTAL.ipynb,Adaptive HAT/CNN fusion experimental version,19,31,KeyboardInterrupt: ,0.261
+notebooks/03_fusion/11_spatial_OOF_HAT_CNN_adaptive_fusion_colab.ipynb,Spatial OOF adaptive fusion,25,231,,5.735
+notebooks/03_fusion/12_correlation_S3_residual_refiner_OOF_colab.ipynb,Correlation gate and S3 refiner,12,65,,5.722
+notebooks/04_final_evaluation/13_final_SSIM_and_full_resolution_HAT_colab_FIXED.ipynb,Final HAT evaluation and full scene,17,26,,10.456
+notebooks/05_arnet/14_official_ARNet_PanCollection_WV3_colab.ipynb,ARNet WV3 experiment,12,17,,0.103
+notebooks/05_arnet/15_transfer_ARNet_WV3_to_local_6band_colab.ipynb,ARNet transfer to local data,0,0,,0.035
+notebooks/06_long_training/16A_HAT_max_performance_long_WV3_pretraining_colab.ipynb,Long WV3 HAT pretraining,14,13,,0.09
+notebooks/06_long_training/16B_transfer_strong_long_HAT_to_local_6band_colab.ipynb,Long HAT transfer to local 6-band,0,0,,0.043
+notebooks/07_sentinel_benchmark/17_Sentinel2_OpenSR_SRGAN_vs_HAT_fair_benchmark_colab.ipynb,Sentinel-2 HAT-S2 vs OpenSR-SRGAN benchmark,14,36,,1.42
+notebooks/08_pantiny/24_PanTiny_6Band_FULL_50_Epochs_Colab.ipynb,PanTiny training and evaluation,22,118,,2.491
+notebooks/08_pantiny/31_PanTiny_FULL_3_TIFF_Input_PAN_Result_RECOMMENDED.ipynb,PanTiny full-scene three-TIFF inference,13,17,,0.123
+notebooks/90_archive/pantiny_inference_old/29_PanTiny_Local_Full_TIFF_Inference.ipynb,Old local PanTiny inference,2,3,"FileNotFoundError: Missing required project paths:
+Aligned MS: /content/D:\Super_Resolution_28-07-2026/Aligned_Data/MS_aligned.tif
+Aligned PAN: /content/D:\Super_Resolution_28-07-2026/Aligned_Data/PAN_aligned.tif
+Normalization stats: /content/D:\Super_Resolution_28-07-2026/Fusion_Baseline_Results/train_normalization_stats.json
+PanTiny checkpoint: /content/D:\Super_Resolution_28-07-2026/PanTiny_6Band_Results/best_pantiny_small_6band.pth
+Wald test directory: /content/D:\Super_Resolution_28-07-2026/Wald_Data_GSD/Patches/test",0.069
+notebooks/90_archive/pantiny_inference_old/30_PanTiny_Colab_Full_TIFF_Inference.ipynb,Old Colab PanTiny inference,13,13,NameError: name 'full_inference' is not defined,0.092

@@ -1,0 +1,17 @@
+torch
+numpy
+pandas
+matplotlib
+tqdm
+scikit-image
+rasterio
+affine
+h5py
+huggingface_hub
+einops
+timm
+pytorch-msssim
+opencv-python-headless
+scipy
+opensr-srgan
+opensr-test

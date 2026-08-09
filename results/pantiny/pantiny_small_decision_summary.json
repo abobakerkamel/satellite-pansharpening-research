@@ -1,0 +1,14 @@
+{
+  "model": "PanTiny small 6-Band",
+  "parameter_count": 53034,
+  "test_images": 22,
+  "PanTiny_PSNR": 25.658881187438965,
+  "HAT_PSNR": 25.357463,
+  "PSNR_difference": 0.30141818743896565,
+  "PanTiny_SSIM_global": 0.9777765246954832,
+  "PanTiny_SAM": 1.8958474451845342,
+  "PanTiny_ERGAS": 2.1034278815442864,
+  "PanTiny_L1": 0.033077106811106205,
+  "best_epoch": 42,
+  "loss_mode": "paper_composite"
+}
